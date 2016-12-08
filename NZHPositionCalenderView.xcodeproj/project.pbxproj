@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5E05E292F85364AC3DF1BC /* Pods_NZHPositionCalenderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00082EF2751B22D9D4B2CC67 /* Pods_NZHPositionCalenderView.framework */; };
+		5EAA9E2B1DF9EF780024D462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E2A1DF9EF780024D462 /* main.m */; };
+		5EAA9E2E1DF9EF780024D462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E2D1DF9EF780024D462 /* AppDelegate.m */; };
+		5EAA9E311DF9EF780024D462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E301DF9EF780024D462 /* ViewController.m */; };
+		5EAA9E341DF9EF780024D462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9E321DF9EF780024D462 /* Main.storyboard */; };
+		5EAA9E361DF9EF780024D462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9E351DF9EF780024D462 /* Assets.xcassets */; };
+		5EAA9E391DF9EF780024D462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9E371DF9EF780024D462 /* LaunchScreen.storyboard */; };
+		5EAA9E441DF9EF780024D462 /* NZHPositionCalenderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E431DF9EF780024D462 /* NZHPositionCalenderViewTests.m */; };
+		5EAA9E4F1DF9EF780024D462 /* NZHPositionCalenderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E4E1DF9EF780024D462 /* NZHPositionCalenderViewUITests.m */; };
+		5EAA9E5E1DF9EF920024D462 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9E5D1DF9EF920024D462 /* CalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EAA9E401DF9EF780024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9E1E1DF9EF780024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9E251DF9EF780024D462;
+			remoteInfo = NZHPositionCalenderView;
+		};
+		5EAA9E4B1DF9EF780024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9E1E1DF9EF780024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9E251DF9EF780024D462;
+			remoteInfo = NZHPositionCalenderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00082EF2751B22D9D4B2CC67 /* Pods_NZHPositionCalenderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZHPositionCalenderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27677A01AB366D4277F7E5F4 /* Pods-NZHPositionCalenderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHPositionCalenderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZHPositionCalenderView/Pods-NZHPositionCalenderView.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5335B64EFAFE64C9CEC5EE /* Pods-NZHPositionCalenderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHPositionCalenderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZHPositionCalenderView/Pods-NZHPositionCalenderView.release.xcconfig"; sourceTree = "<group>"; };
+		5EAA9E261DF9EF780024D462 /* NZHPositionCalenderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZHPositionCalenderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9E2A1DF9EF780024D462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EAA9E2C1DF9EF780024D462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EAA9E2D1DF9EF780024D462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EAA9E2F1DF9EF780024D462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EAA9E301DF9EF780024D462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EAA9E331DF9EF780024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EAA9E351DF9EF780024D462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EAA9E381DF9EF780024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EAA9E3A1DF9EF780024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9E3F1DF9EF780024D462 /* NZHPositionCalenderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHPositionCalenderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9E431DF9EF780024D462 /* NZHPositionCalenderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHPositionCalenderViewTests.m; sourceTree = "<group>"; };
+		5EAA9E451DF9EF780024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9E4A1DF9EF780024D462 /* NZHPositionCalenderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHPositionCalenderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9E4E1DF9EF780024D462 /* NZHPositionCalenderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHPositionCalenderViewUITests.m; sourceTree = "<group>"; };
+		5EAA9E501DF9EF780024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9E5C1DF9EF920024D462 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		5EAA9E5D1DF9EF920024D462 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAA9E231DF9EF780024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E05E292F85364AC3DF1BC /* Pods_NZHPositionCalenderView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E3C1DF9EF780024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E471DF9EF780024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196CF034D2F14FA3667608D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00082EF2751B22D9D4B2CC67 /* Pods_NZHPositionCalenderView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAA9E1D1DF9EF780024D462 = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E281DF9EF780024D462 /* NZHPositionCalenderView */,
+				5EAA9E421DF9EF780024D462 /* NZHPositionCalenderViewTests */,
+				5EAA9E4D1DF9EF780024D462 /* NZHPositionCalenderViewUITests */,
+				5EAA9E271DF9EF780024D462 /* Products */,
+				9E0B301F00D3BC44CCB38BBA /* Pods */,
+				196CF034D2F14FA3667608D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAA9E271DF9EF780024D462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E261DF9EF780024D462 /* NZHPositionCalenderView.app */,
+				5EAA9E3F1DF9EF780024D462 /* NZHPositionCalenderViewTests.xctest */,
+				5EAA9E4A1DF9EF780024D462 /* NZHPositionCalenderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAA9E281DF9EF780024D462 /* NZHPositionCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E2C1DF9EF780024D462 /* AppDelegate.h */,
+				5EAA9E2D1DF9EF780024D462 /* AppDelegate.m */,
+				5EAA9E2F1DF9EF780024D462 /* ViewController.h */,
+				5EAA9E301DF9EF780024D462 /* ViewController.m */,
+				5EAA9E5F1DF9EF950024D462 /* NZHPositionCalenderView */,
+				5EAA9E321DF9EF780024D462 /* Main.storyboard */,
+				5EAA9E351DF9EF780024D462 /* Assets.xcassets */,
+				5EAA9E371DF9EF780024D462 /* LaunchScreen.storyboard */,
+				5EAA9E3A1DF9EF780024D462 /* Info.plist */,
+				5EAA9E291DF9EF780024D462 /* Supporting Files */,
+			);
+			path = NZHPositionCalenderView;
+			sourceTree = "<group>";
+		};
+		5EAA9E291DF9EF780024D462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E2A1DF9EF780024D462 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EAA9E421DF9EF780024D462 /* NZHPositionCalenderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E431DF9EF780024D462 /* NZHPositionCalenderViewTests.m */,
+				5EAA9E451DF9EF780024D462 /* Info.plist */,
+			);
+			path = NZHPositionCalenderViewTests;
+			sourceTree = "<group>";
+		};
+		5EAA9E4D1DF9EF780024D462 /* NZHPositionCalenderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E4E1DF9EF780024D462 /* NZHPositionCalenderViewUITests.m */,
+				5EAA9E501DF9EF780024D462 /* Info.plist */,
+			);
+			path = NZHPositionCalenderViewUITests;
+			sourceTree = "<group>";
+		};
+		5EAA9E5F1DF9EF950024D462 /* NZHPositionCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9E5C1DF9EF920024D462 /* CalendarView.h */,
+				5EAA9E5D1DF9EF920024D462 /* CalendarView.m */,
+			);
+			name = NZHPositionCalenderView;
+			sourceTree = "<group>";
+		};
+		9E0B301F00D3BC44CCB38BBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27677A01AB366D4277F7E5F4 /* Pods-NZHPositionCalenderView.debug.xcconfig */,
+				2E5335B64EFAFE64C9CEC5EE /* Pods-NZHPositionCalenderView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAA9E251DF9EF780024D462 /* NZHPositionCalenderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9E531DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderView" */;
+			buildPhases = (
+				016A077E7402E6E82343A240 /* [CP] Check Pods Manifest.lock */,
+				5EAA9E221DF9EF780024D462 /* Sources */,
+				5EAA9E231DF9EF780024D462 /* Frameworks */,
+				5EAA9E241DF9EF780024D462 /* Resources */,
+				70B993ED34A3FBEBAFB0BCE0 /* [CP] Embed Pods Frameworks */,
+				F2856109D3899EC8DA2BF931 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZHPositionCalenderView;
+			productName = NZHPositionCalenderView;
+			productReference = 5EAA9E261DF9EF780024D462 /* NZHPositionCalenderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EAA9E3E1DF9EF780024D462 /* NZHPositionCalenderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9E561DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderViewTests" */;
+			buildPhases = (
+				5EAA9E3B1DF9EF780024D462 /* Sources */,
+				5EAA9E3C1DF9EF780024D462 /* Frameworks */,
+				5EAA9E3D1DF9EF780024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9E411DF9EF780024D462 /* PBXTargetDependency */,
+			);
+			name = NZHPositionCalenderViewTests;
+			productName = NZHPositionCalenderViewTests;
+			productReference = 5EAA9E3F1DF9EF780024D462 /* NZHPositionCalenderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EAA9E491DF9EF780024D462 /* NZHPositionCalenderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9E591DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderViewUITests" */;
+			buildPhases = (
+				5EAA9E461DF9EF780024D462 /* Sources */,
+				5EAA9E471DF9EF780024D462 /* Frameworks */,
+				5EAA9E481DF9EF780024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9E4C1DF9EF780024D462 /* PBXTargetDependency */,
+			);
+			name = NZHPositionCalenderViewUITests;
+			productName = NZHPositionCalenderViewUITests;
+			productReference = 5EAA9E4A1DF9EF780024D462 /* NZHPositionCalenderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAA9E1E1DF9EF780024D462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iiyumewo;
+				TargetAttributes = {
+					5EAA9E251DF9EF780024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5EAA9E3E1DF9EF780024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9E251DF9EF780024D462;
+					};
+					5EAA9E491DF9EF780024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9E251DF9EF780024D462;
+					};
+				};
+			};
+			buildConfigurationList = 5EAA9E211DF9EF780024D462 /* Build configuration list for PBXProject "NZHPositionCalenderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EAA9E1D1DF9EF780024D462;
+			productRefGroup = 5EAA9E271DF9EF780024D462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAA9E251DF9EF780024D462 /* NZHPositionCalenderView */,
+				5EAA9E3E1DF9EF780024D462 /* NZHPositionCalenderViewTests */,
+				5EAA9E491DF9EF780024D462 /* NZHPositionCalenderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAA9E241DF9EF780024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9E391DF9EF780024D462 /* LaunchScreen.storyboard in Resources */,
+				5EAA9E361DF9EF780024D462 /* Assets.xcassets in Resources */,
+				5EAA9E341DF9EF780024D462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E3D1DF9EF780024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E481DF9EF780024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016A077E7402E6E82343A240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70B993ED34A3FBEBAFB0BCE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHPositionCalenderView/Pods-NZHPositionCalenderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2856109D3899EC8DA2BF931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHPositionCalenderView/Pods-NZHPositionCalenderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAA9E221DF9EF780024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9E311DF9EF780024D462 /* ViewController.m in Sources */,
+				5EAA9E2E1DF9EF780024D462 /* AppDelegate.m in Sources */,
+				5EAA9E5E1DF9EF920024D462 /* CalendarView.m in Sources */,
+				5EAA9E2B1DF9EF780024D462 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E3B1DF9EF780024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9E441DF9EF780024D462 /* NZHPositionCalenderViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9E461DF9EF780024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9E4F1DF9EF780024D462 /* NZHPositionCalenderViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAA9E411DF9EF780024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9E251DF9EF780024D462 /* NZHPositionCalenderView */;
+			targetProxy = 5EAA9E401DF9EF780024D462 /* PBXContainerItemProxy */;
+		};
+		5EAA9E4C1DF9EF780024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9E251DF9EF780024D462 /* NZHPositionCalenderView */;
+			targetProxy = 5EAA9E4B1DF9EF780024D462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EAA9E321DF9EF780024D462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9E331DF9EF780024D462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EAA9E371DF9EF780024D462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9E381DF9EF780024D462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAA9E511DF9EF780024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EAA9E521DF9EF780024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAA9E541DF9EF780024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27677A01AB366D4277F7E5F4 /* Pods-NZHPositionCalenderView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHPositionCalenderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EAA9E551DF9EF780024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5335B64EFAFE64C9CEC5EE /* Pods-NZHPositionCalenderView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHPositionCalenderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EAA9E571DF9EF780024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHPositionCalenderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHPositionCalenderView.app/NZHPositionCalenderView";
+			};
+			name = Debug;
+		};
+		5EAA9E581DF9EF780024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHPositionCalenderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHPositionCalenderView.app/NZHPositionCalenderView";
+			};
+			name = Release;
+		};
+		5EAA9E5A1DF9EF780024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHPositionCalenderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHPositionCalenderView;
+			};
+			name = Debug;
+		};
+		5EAA9E5B1DF9EF780024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHPositionCalenderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHPositionCalenderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHPositionCalenderView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAA9E211DF9EF780024D462 /* Build configuration list for PBXProject "NZHPositionCalenderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9E511DF9EF780024D462 /* Debug */,
+				5EAA9E521DF9EF780024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9E531DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9E541DF9EF780024D462 /* Debug */,
+				5EAA9E551DF9EF780024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EAA9E561DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9E571DF9EF780024D462 /* Debug */,
+				5EAA9E581DF9EF780024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EAA9E591DF9EF780024D462 /* Build configuration list for PBXNativeTarget "NZHPositionCalenderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9E5A1DF9EF780024D462 /* Debug */,
+				5EAA9E5B1DF9EF780024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EAA9E1E1DF9EF780024D462 /* Project object */;
+}
