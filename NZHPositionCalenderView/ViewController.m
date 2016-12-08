@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CalendarView *calenderView = [[CalendarView alloc]initAtDate:[NSData data] calendarStyle:CalendarViewStyleWithInfo futureLineNumber:3];
+    CalendarView *calenderView = [[CalendarView alloc]initAtDate:[NSDate date] calendarStyle:CalendarViewStyleWithInfo futureLineNumber:3];
+    
     [self.view addSubview:calenderView];
     
     // Do any additional setup after loading the view, typically from a nib.

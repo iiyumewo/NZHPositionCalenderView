@@ -36,6 +36,8 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, strong) UIView *dateNumberView;
 
+@property (nonatomic, strong) NSDate *givenDate;
+
 @end
 
 @implementation CalendarView
@@ -58,6 +60,7 @@ typedef enum : NSUInteger {
     CGRect calendarFrame = [self calculateForCalendarViewFrameWithNumberOfDateLineNumber:1+lineNumber calendarStyle:style];
     self = [super initWithFrame:calendarFrame];
     if (self) {
+        _givenDate = currentDate;
         _numberOfPastDateLines = 0;
         _numberOfFutureDateLines = lineNumber;
         self.calendarViewStyle = style;
@@ -104,7 +107,13 @@ typedef enum : NSUInteger {
     [infoLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(_yearMonthInfoView);
     }];
-    infoLabel.text = @"2016年7月";
+    
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSUInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth;
+    NSDateComponents *dateComponent = [calendar components:unitFlags fromDate:self.givenDate];
+    NSInteger year = [dateComponent year];
+    NSInteger month = [dateComponent month];
+    infoLabel.text = [NSString stringWithFormat:@"%ld年%ld月", year, month];
     infoLabel.font = [UIFont systemFontOfSize:14];
     infoLabel.textColor = kColorWithRGB(74, 74, 74, 1);
 }
